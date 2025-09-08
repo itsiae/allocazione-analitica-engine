@@ -10,29 +10,26 @@
 #
 
 # Repository Name
-repository_name: &repo_name project-template-aws-batch
-
+repository_name: &repo_name allocazione-analitica-engine
 # Project Name (Suggested < 10 chars)
-project_name: &proj_name template
-
+project_name: &proj_name allocazione-analitica
 region:
   primary: eu-west-1
-
 # Default Tags for each region
 tags:
-# Technicals
-- key: Iac
-  value: terraform
-- key: Repository
-  value: *repo_name
-# Defaults
-- key: Project
-  value: *proj_name
-- key: CostCenter
-  value: TBD
-- key: BusinessUnit
-  value: TBD
-- key: Availability
-  value: ordinary
-- key: PrivacySensitive
-  value: "true"
+  # Technicals
+  - key: Iac
+    value: terraform
+  - key: Repository
+    value: *repo_name
+  # Defaults
+  - key: Project
+    value: *proj_name
+  - key: CostCenter
+    value: TBD
+  - key: BusinessUnit
+    value: TBD
+  - key: Availability
+    value: ordinary
+  - key: PrivacySensitive
+    value: "true"

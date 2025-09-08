@@ -1,4 +1,4 @@
-name: project-template-aws-batch
+name: allocazione-analitica-engine
 apiVersion: v1
 version: 1.0.0
 appVersion: "1.0.0"

@@ -1,4 +1,4 @@
-# 🚀 [INSERIRE NOME PROGETTO QUI]
+# itsiae/allocazione-analitica-engine
 
 <!-- 
     SUGGERIMENTO: Aggiungi qui dei badge per visualizzare lo stato delle pipeline, la licenza, etc.
