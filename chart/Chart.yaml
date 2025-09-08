@@ -1,0 +1,6 @@
+name: project-template-aws-batch
+apiVersion: v1
+version: 1.0.0
+appVersion: "1.0.0"
+template:
+  repository: project-template-aws-batch

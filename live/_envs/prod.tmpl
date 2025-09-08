@@ -1,0 +1,10 @@
+env: &env $AWS_ENV
+
+# stage-based tags
+tags:
+  - key: Environment
+    value: *env
+
+variable_from_github_env: $AWS_ROLE
+
+variable_defined_here: "this is a variable defined in the tmpl env. You should always prefer defining variables at the github env level"
